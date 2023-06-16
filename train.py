@@ -241,8 +241,6 @@ def main():
     model = capsules(A=A, B=B, C=C, D=D, E=num_class,
                      iters=args.em_iters).to(device)
 
-    model.summary()
-
     print('Num params:', sum([prod(p.size())
               for p in model.parameters()]))
 
