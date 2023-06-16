@@ -1,7 +1,0 @@
-image size: 100x100
-
-lr: 0.01
-
-A, B, C, D = 32, 4, 4, 4 
-
-best test accuracy: 90.584416
