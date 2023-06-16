@@ -267,9 +267,9 @@ def main():
             test_acc, test_loss = test(test_loader, model, criterion, device)
             history['test_acc'].append(test_acc)
             history['test_loss'].append(test_loss)
-            best_acc = max(best_acc, test_acc)
 
             if test_acc > best_acc:
+                best_acc = max(best_acc, test_acc)
                 best_epoch = epoch
                 epochs_no_improve = 0
             else:
@@ -311,7 +311,8 @@ def main():
                     plt.legend()
                             
                     plt.tight_layout()
-                    plt.show()  
+                    # plt.show()  
+                    plt.savefig('accuracy_loss.png')
                     return
 
     current_memory_usage = get_gpu_memory_map()[0]
