@@ -53,7 +53,7 @@ parser.add_argument('--em-iters', type=int, default=2, metavar='N',
                     help='iterations of EM Routing')
 parser.add_argument('--snapshot-folder', type=str, default='./snapshots', metavar='SF',
                     help='where to store the snapshots')
-parser.add_argument('--data_folder', type=str, default='./content/data', metavar='DF',
+parser.add_argument('--data_folder', type=str, default='/content/data', metavar='DF',
                     help='where to store the datasets')
 parser.add_argument('--dataset', type=str, default='JAMONES_CROPPED', metavar='D',
                     help='dataset for training')
@@ -111,7 +111,7 @@ def get_setting(args):
     #     shuffle=True, **kwargs
     # )
     print(test_loader)
-    print("Detected Classes are: ", train_dataset.class_to_idx)
+    print("Detected Classes are: ", dataset.class_to_idx)
     num_class=26
 
     return num_class,train_loader,test_loader
