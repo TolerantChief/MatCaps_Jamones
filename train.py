@@ -256,7 +256,7 @@ def main():
 
     history = {'train_loss': [], 'train_acc': [], 'test_loss': [], 'test_acc': []}
 
-    best_acc = test(test_loader, model, criterion, device)
+    best_acc, _ = test(test_loader, model, criterion, device)
     for epoch in range(1, args.epochs + 1):
         acc, train_loss = train(train_loader, model, criterion, optimizer, epoch, device)
         acc /= len(train_loader)
@@ -317,7 +317,7 @@ def main():
     if current_memory_usage > max_memory_usage:
         max_memory_usage = current_memory_usage
 
-    best_acc = max(best_acc, test(test_loader, model, criterion, device))
+    best_acc, _ = max(best_acc, test(test_loader, model, criterion, device))
     print('best test accuracy: {:.6f}'.format(best_acc))
 
     print('max. memory usage: ', max_memory_usage)
