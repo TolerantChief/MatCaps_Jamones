@@ -280,7 +280,8 @@ def main():
                     if current_memory_usage > max_memory_usage:
                         max_memory_usage = current_memory_usage
 
-                    best_acc = max(best_acc, test(test_loader, model, criterion, device))
+                    test_acc, test_loss = test(test_loader, model, criterion, device)
+                    best_acc = max(best_acc, test_acc)
                     print('best test accuracy: {:.6f} in epoch: {}'.format(best_acc, best_epoch))
 
                     print('max. memory usage: ', max_memory_usage)
