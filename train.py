@@ -84,7 +84,7 @@ def get_setting(args):
     ])
 
     test_size = 0.2
-    dataset = torchvision.datasets.ImageFolder(root=args.data_path, transform=transform)
+    dataset = torchvision.datasets.ImageFolder(root=data_path, transform=transform)
     num_data = len(dataset)
     num_test = int(test_size * num_data)
     num_train = num_data - num_test
