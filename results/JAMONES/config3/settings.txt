@@ -1,0 +1,10 @@
+size: 32x32
+
+iters: 2
+
+lr: 0.001
+
+A, B, C, D = 64, 8, 16, 16
+
+
+best test accuracy: 91.464578

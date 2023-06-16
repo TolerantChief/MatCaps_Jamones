@@ -1,0 +1,8 @@
+Test set: Average loss: 3.823235, Accuracy: 90.081169 
+
+[W pthreadpool-cpp.cc:90] Warning: Leaking Caffe2 thread-pool after fork. (function pthreadpool)
+
+Test set: Average loss: 3.810726, Accuracy: 90.259740 
+
+best test accuracy: 90.259740
+saving model to ./snapshots/model_50.pth

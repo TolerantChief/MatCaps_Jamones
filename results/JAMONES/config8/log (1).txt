@@ -1,0 +1,154 @@
+
+Test set: Average loss: 19.443223, Accuracy: 5.048701 
+
+Test set: Average loss: 13.849317, Accuracy: 19.594156 
+
+Test set: Average loss: 8.011155, Accuracy: 81.558442 
+
+Test set: Average loss: 7.368546, Accuracy: 77.808442 
+
+Test set: Average loss: 7.192182, Accuracy: 73.262987 
+
+Test set: Average loss: 7.237989, Accuracy: 71.379870 
+
+Test set: Average loss: 6.585288, Accuracy: 81.818182 
+
+Test set: Average loss: 7.030500, Accuracy: 75.389610 
+
+Test set: Average loss: 7.647481, Accuracy: 66.103896 
+
+Test set: Average loss: 7.322718, Accuracy: 68.019481 
+
+Test set: Average loss: 7.361509, Accuracy: 71.428571 
+
+Test set: Average loss: 6.521004, Accuracy: 72.224026 
+
+Test set: Average loss: 5.774301, Accuracy: 84.561688 
+
+Test set: Average loss: 7.272984, Accuracy: 69.918831 
+
+Test set: Average loss: 5.579891, Accuracy: 85.129870 
+
+Test set: Average loss: 5.606371, Accuracy: 81.639610 
+
+Test set: Average loss: 5.965904, Accuracy: 78.084416 
+
+Test set: Average loss: 5.342802, Accuracy: 85.795455 
+
+Test set: Average loss: 5.627355, Accuracy: 80.844156 
+
+Test set: Average loss: 5.407106, Accuracy: 81.233766 
+
+Test set: Average loss: 5.025996, Accuracy: 85.860390 
+
+Test set: Average loss: 5.315558, Accuracy: 83.279221 
+
+Test set: Average loss: 4.919158, Accuracy: 85.470779 
+
+Test set: Average loss: 5.238936, Accuracy: 80.649351 
+
+Test set: Average loss: 4.793995, Accuracy: 83.766234 
+
+Test set: Average loss: 4.869387, Accuracy: 85.860390 
+
+Test set: Average loss: 4.701149, Accuracy: 87.500000 
+
+Test set: Average loss: 5.423040, Accuracy: 77.581169 
+
+Test set: Average loss: 4.633746, Accuracy: 87.889610 
+
+Test set: Average loss: 4.372363, Accuracy: 90.178571 
+
+Test set: Average loss: 4.384888, Accuracy: 89.448052 
+
+Test set: Average loss: 4.302388, Accuracy: 90.016234 
+
+Test set: Average loss: 4.349171, Accuracy: 89.512987 
+
+Test set: Average loss: 4.273725, Accuracy: 90.324675 
+
+Test set: Average loss: 4.242660, Accuracy: 90.665584 
+
+Test set: Average loss: 4.273342, Accuracy: 89.610390 
+
+Test set: Average loss: 4.210644, Accuracy: 89.756494 
+
+Test set: Average loss: 4.192843, Accuracy: 89.821429 
+
+Test set: Average loss: 4.167365, Accuracy: 90.503247 
+
+Test set: Average loss: 4.169368, Accuracy: 90.340909 
+
+Test set: Average loss: 4.273971, Accuracy: 89.107143 
+
+Test set: Average loss: 4.170704, Accuracy: 90.016234 
+
+Test set: Average loss: 4.168759, Accuracy: 89.837662 
+
+Test set: Average loss: 4.204103, Accuracy: 89.512987 
+
+Test set: Average loss: 4.175416, Accuracy: 89.772727 
+
+Test set: Average loss: 4.189503, Accuracy: 89.675325 
+
+Test set: Average loss: 4.205483, Accuracy: 89.756494 
+
+Test set: Average loss: 4.152007, Accuracy: 90.340909 
+
+Test set: Average loss: 4.176441, Accuracy: 89.935065 
+
+Test set: Average loss: 4.161761, Accuracy: 89.610390 
+
+Test set: Average loss: 4.172103, Accuracy: 89.756494 
+
+Test set: Average loss: 4.196375, Accuracy: 90.081169 
+
+Test set: Average loss: 4.193335, Accuracy: 89.675325 
+
+Test set: Average loss: 4.204586, Accuracy: 89.577922 
+
+Test set: Average loss: 4.167701, Accuracy: 89.918831 
+
+Test set: Average loss: 4.163801, Accuracy: 90.178571 
+
+Test set: Average loss: 4.203456, Accuracy: 90.243506 
+
+Test set: Average loss: 4.168973, Accuracy: 89.512987 
+
+Test set: Average loss: 4.173109, Accuracy: 89.659091 
+
+Test set: Average loss: 4.167903, Accuracy: 89.935065 
+
+Test set: Average loss: 4.173372, Accuracy: 89.837662 
+
+Test set: Average loss: 4.166867, Accuracy: 90.178571 
+
+Test set: Average loss: 4.203770, Accuracy: 89.821429 
+
+Test set: Average loss: 4.231147, Accuracy: 89.918831 
+
+Test set: Average loss: 4.188458, Accuracy: 89.853896 
+
+Test set: Average loss: 4.170102, Accuracy: 90.324675 
+
+Test set: Average loss: 4.215170, Accuracy: 90.097403 
+
+Test set: Average loss: 4.178255, Accuracy: 90.405844 
+
+Test set: Average loss: 4.152717, Accuracy: 90.584416 
+
+Test set: Average loss: 4.175416, Accuracy: 89.821429 
+
+Test set: Average loss: 4.165482, Accuracy: 90.259740 
+
+Test set: Average loss: 4.172187, Accuracy: 89.691558 
+
+Test set: Average loss: 4.150271, Accuracy: 90.259740 
+
+Test set: Average loss: 4.178461, Accuracy: 89.512987 
+
+Test set: Average loss: 4.225609, Accuracy: 89.172078 
+
+Test set: Average loss: 4.170839, Accuracy: 90.178571 
+
+Test set: Average loss: 4.210144, Accuracy: 90.000000 

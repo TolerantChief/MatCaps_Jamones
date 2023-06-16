@@ -1,0 +1,2 @@
+best test accuracy: 90.665584
+saving model to ./snapshots/model_75.pth
