@@ -260,13 +260,13 @@ def main():
     for epoch in range(1, args.epochs + 1):
         acc, train_loss = train(train_loader, model, criterion, optimizer, epoch, device)
         acc /= len(train_loader)
-        history['train_acc'] = acc
-        history['train_loss'] = train_loss
+        history['train_acc'].append(acc)
+        history['train_loss'].append(train_loss)
         scheduler.step(acc)
         if epoch % args.test_intvl == 0:
             test_acc, test_loss = test(test_loader, model, criterion, device)
-            history['test_acc'] = test_acc
-            history['test_loss'] = test_loss
+            history['test_acc'].append(test_acc)
+            history['test_loss'].append(test_loss)
             best_acc = max(best_acc, test_acc)
 
             if test_acc > best_acc:
