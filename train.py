@@ -65,7 +65,7 @@ def get_setting(args):
     #Indicar dirección del set de entrenamiento y test.
     data_path = os.path.join(args.data_folder, args.dataset)
 
-    size = 100
+    size = 30
     mean, std = ((0.5, 0.5, 0.5), (0.5, 0.5, 0.5))
 
     transform = transforms.Compose([
@@ -235,8 +235,8 @@ def main():
 
     # model
     # A, B, C, D = 64, 8, 16, 16
-    # A, B, C, D = 32, 32, 32, 32
-    A, B, C, D = 32, 4, 4, 4    
+    A, B, C, D = 32, 32, 32, 32
+    # A, B, C, D = 32, 4, 4, 4    
 
     model = capsules(A=A, B=B, C=C, D=D, E=num_class,
                      iters=args.em_iters).to(device)
